@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# 🎯 Palpitômetro - Copa 2026
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Aposte na Copa do Mundo 2026 de forma 100% gratuita!**
 
-## Available Scripts
+## 🎮 Características
 
-In the project directory, you can run:
+- ✅ 12 grupos com 48 seleções
+- ✅ 72 jogos para fazer palpites
+- ✅ Sistema de ranking em tempo real
+- ✅ Login com Google
+- ✅ 100% gratuito (sem taxas)
+- ✅ Monetizado com Google AdSense
 
-### `npm start`
+## 🚀 Deploy
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Hospedado em Vercel: https://palpitometro.vercel.app
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📖 Como Usar
 
-### `npm test`
+```bash
+# 1. Clone o repositório
+git clone https://github.com/SEU_USER/palpitometro.git
+cd palpitometro
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 2. Instale dependências
+npm install
 
-### `npm run build`
+# 3. Configure .env.local
+# Copie .env.local.example e preencha com seus dados Firebase
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# 4. Inicie o servidor
+npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# 5. Abra http://localhost:3000
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📚 Documentação
 
-### `npm run eject`
+- [SUMARIO_PALPITOMETRO.md](./SUMARIO_PALPITOMETRO.md) - Visão geral e timeline
+- [MUDANCAS_BOLAO_PARA_PALPITOMETRO.md](./MUDANCAS_BOLAO_PARA_PALPITOMETRO.md) - Mudanças exatas
+- [GUIA_GOOGLE_ADSENSE.md](./GUIA_GOOGLE_ADSENSE.md) - Como ganhar dinheiro
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🛠️ Tech Stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Frontend**: React 18
+- **Backend**: Firebase Realtime Database
+- **Hosting**: Vercel
+- **Monetização**: Google AdSense
+- **Autenticação**: Google Sign-In
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## ⚖️ Disclaimer
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Este é um projeto **100% não-comercial**. Nenhuma taxa é cobrada dos usuários. Anúncios Google AdSense ajudam a manter o servidor rodando.
 
-## Learn More
+## 📄 Licença
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+MIT - Livre para usar, modificar e distribuir
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Made with ⚽ and ☕**
