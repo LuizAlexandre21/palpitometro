@@ -2,7 +2,7 @@
 
 **Aposte na Copa do Mundo 2026 de forma 100% gratuita!**
 
-## 🎮 Características
+## Características
 
 - ✅ 12 grupos com 48 seleções
 - ✅ 72 jogos para fazer palpites
@@ -11,51 +11,39 @@
 - ✅ 100% gratuito (sem taxas)
 - ✅ Monetizado com Google AdSense
 
-## 🚀 Deploy
+## Deploy
 
-Hospedado em Vercel: https://palpitometro.vercel.app
+Hospedado em: https://palpitometro.vercel.app
 
-## 📖 Como Usar
+## Como Usar
 
-```bash
-# 1. Clone o repositório
-git clone https://github.com/SEU_USER/palpitometro.git
-cd palpitometro
+1. Clone o repositório
+2. `npm install`
+3. Configure `.env.local` com credenciais Firebase
+4. `npm start`
 
-# 2. Instale dependências
-npm install
+## Documentação
 
-# 3. Configure .env.local
-# Copie .env.local.example e preencha com seus dados Firebase
+- [SUMARIO_PALPITOMETRO.md](./SUMARIO_PALPITOMETRO.md)
+- [MUDANCAS_BOLAO_PARA_PALPITOMETRO.md](./MUDANCAS_BOLAO_PARA_PALPITOMETRO.md)
+- [GUIA_GOOGLE_ADSENSE.md](./GUIA_GOOGLE_ADSENSE.md)
 
-# 4. Inicie o servidor
-npm start
+## Stack
 
-# 5. Abra http://localhost:3000
-```
+- React 18
+- Firebase Realtime Database
+- Vercel
+- Google AdSense
+- Google Sign-In
 
-## 📚 Documentação
+## Licença
 
-- [SUMARIO_PALPITOMETRO.md](./SUMARIO_PALPITOMETRO.md) - Visão geral e timeline
-- [MUDANCAS_BOLAO_PARA_PALPITOMETRO.md](./MUDANCAS_BOLAO_PARA_PALPITOMETRO.md) - Mudanças exatas
-- [GUIA_GOOGLE_ADSENSE.md](./GUIA_GOOGLE_ADSENSE.md) - Como ganhar dinheiro
+MIT - Livre para usar e modificar
 
-## 🛠️ Tech Stack
+## Disclaimer
 
-- **Frontend**: React 18
-- **Backend**: Firebase Realtime Database
-- **Hosting**: Vercel
-- **Monetização**: Google AdSense
-- **Autenticação**: Google Sign-In
-
-## ⚖️ Disclaimer
-
-Este é um projeto **100% não-comercial**. Nenhuma taxa é cobrada dos usuários. Anúncios Google AdSense ajudam a manter o servidor rodando.
-
-## 📄 Licença
-
-MIT - Livre para usar, modificar e distribuir
+Este é um projeto não-comercial para diversão. Nenhuma taxa é cobrada dos usuários. Anúncios Google AdSense ajudam a manter o servidor rodando.
 
 ---
 
-**Made with ⚽ and ☕**
+Made with ⚽ and ☕
